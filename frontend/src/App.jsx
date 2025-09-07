@@ -1,11 +1,12 @@
 import React from "react";
-import BookhubLanding from "./pages/landing/landing";
+import { BrowserRouter as Router } from "react-router-dom";
+import AppMain from "./App.main";
 
 function App() {
   return (
-    <div>
-      <BookhubLanding />
-    </div>
+    <Router>
+      <AppMain />
+    </Router>
   );
 }
 
